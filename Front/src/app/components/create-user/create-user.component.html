@@ -1,0 +1,27 @@
+<mat-card>
+	<mat-card-title>Cadatre-se</mat-card-title>
+	<form>
+		<mat-form-field>
+			<input matInput placeholder="Nome" 
+				[(ngModel)]="usuario.nome" 
+				name="nome" />
+		</mat-form-field>
+		<mat-form-field>
+			<input matInput placeholder="login" 
+				[(ngModel)]="usuario.login" 
+				name="login" />
+		</mat-form-field>
+		<mat-form-field>
+			<input matInput placeholder="Senha" 
+				[(ngModel)]="usuario.senha" 
+				name="ano" />
+		</mat-form-field>
+	</form>
+
+	<button class="btn-new-appointment" mat-raised-button (click)="createUser()">
+		Novo Livro
+	</button>
+	<button class="btn-cancel-appointment" mat-raised-button (click)="cancel()">
+		Cancelar
+	</button>
+</mat-card>

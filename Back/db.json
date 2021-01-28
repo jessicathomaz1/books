@@ -1,0 +1,37 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "userTeste",
+      "senha": "teste123",
+      "tipo_user": 1
+    },
+    {
+      "nome": "jessica",
+      "login": "jessicathomaz1",
+      "senha": "123456",
+      "tipo_usuario": 1,
+      "id": 2
+    }
+  ],
+  "livros": [
+    {
+      "nome": "livro 3",
+      "autor": "desconhecido",
+      "ano": "1999",
+      "id": 3
+    },
+    {
+      "nome": "livro 4",
+      "autor": "Atônio Pimenta",
+      "ano": "2020",
+      "id": 4
+    },
+    {
+      "nome": "teste",
+      "autor": "teste",
+      "ano": "200",
+      "id": 5
+    }
+  ]
+}

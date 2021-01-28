@@ -1,0 +1,27 @@
+button {
+	margin-bottom: 30px;
+}
+
+.btn-new-appointment {
+	background-color: #FFC164;
+	color: rgb(75, 75, 75);
+}
+
+.btn-cancel-appointment {
+	background-color: #ffffff;
+	color: rgb(75, 75, 75);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+mat-card {
+	margin: 10%;
+}

@@ -1,0 +1,25 @@
+.home .title {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 30px;
+  margin: 20px 15px 0px 0px;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.home {
+  margin: 3% 40% 3% 40%;
+}
+

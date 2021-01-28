@@ -1,0 +1,24 @@
+<mat-card>
+	<mat-card-title>Excluir Livro</mat-card-title>
+	<form>
+			<mat-form-field>
+					<input matInput placeholder="Nome"
+							[value]="livro.nome" name="nome" disabled>
+			</mat-form-field>
+			<mat-form-field>
+					<input matInput placeholder="Autor"
+							[value]="livro.autor" name="autor" disabled>
+			</mat-form-field>
+			<mat-form-field>
+					<input matInput placeholder="Ano"
+							[value]="livro.ano" name="ano" disabled>
+			</mat-form-field>
+	</form>
+	<button mat-raised-button (click)="deleteLivro()" color="warn">
+			Excluir
+	</button>
+	
+	<button class="btn-cancel-appointment" mat-raised-button (click)="cancel()">
+			Cancelar
+	</button>
+</mat-card>
