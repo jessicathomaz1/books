@@ -1,0 +1,20 @@
+<mat-card>
+	<mat-card-title>Excluir Agendamento</mat-card-title>
+	<form>
+			<mat-form-field>
+					<input matInput placeholder="Nome"
+							[value]="appointment.name" name="name" disabled>
+			</mat-form-field>
+			<mat-form-field>
+					<input matInput placeholder="Data"
+							[value]="appointment.date" name="date" disabled>
+			</mat-form-field>
+</form>
+	<button mat-raised-button (click)="deleteAppointment()" color="warn">
+			Excluir
+	</button>
+	
+	<button class="btn-cancel-appointment" mat-raised-button (click)="cancel()">
+			Cancelar
+	</button>
+</mat-card>

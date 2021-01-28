@@ -1,0 +1,20 @@
+button {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.btn-update-appointment {
+	background-color: #FFC164;
+	color: rgb(75, 75, 75);
+}
+
+.btn-cancel-appointment {
+	background-color: #ffffff;
+	color: rgb(75, 75, 75);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}

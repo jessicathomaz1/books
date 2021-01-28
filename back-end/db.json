@@ -1,0 +1,83 @@
+{
+  "products": [
+    {
+      "name": "teste",
+      "price": "5.00",
+      "image": null,
+      "id": 2
+    },
+    {
+      "name": "Ração",
+      "price": "8.00",
+      "image": null,
+      "id": 3
+    },
+    {
+      "name": "Tesoura",
+      "price": "50.00",
+      "image": null,
+      "id": 4
+    },
+    {
+      "name": "aaa",
+      "price": null,
+      "image": null,
+      "id": 5
+    },
+    {
+      "name": "aaa",
+      "price": null,
+      "image": null,
+      "id": 6
+    },
+    {
+      "name": "aaa",
+      "price": null,
+      "image": null,
+      "id": 7
+    },
+    {
+      "name": "aaa",
+      "price": "3",
+      "image": null,
+      "id": 8
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "name": "Barba de urso",
+      "date": "23-01-2021"
+    },
+    {
+      "id": 2,
+      "name": "Barbearia King",
+      "date": "20-01-2021"
+    },
+    {
+      "id": 3,
+      "name": "Status Barber",
+      "date": "01-02-2021"
+    },
+    {
+      "name": "Mood Barber",
+      "date": "25-01-2021",
+      "id": 4
+    },
+    {
+      "name": "teste",
+      "date": "2021-01-24T00:17:18.845Z",
+      "id": 5
+    },
+    {
+      "name": "Jessica",
+      "date": "2021-01-24",
+      "id": 6
+    },
+    {
+      "name": "jessicathomaz1",
+      "date": "28-01-2021",
+      "id": 7
+    }
+  ]
+}
